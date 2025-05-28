@@ -4,7 +4,7 @@ My Arch Linux dotfiles. This configuration uses `Wayland` as display protocol an
 
 ## 🪢 Dependencies
 
-The only dependencies are 
+The only dependencies for the dotfiles installation are:
 
 - `git`
 - `stow (GNU)` 
@@ -51,6 +51,8 @@ With that being said, the full list of programs my configuration involves is det
 > `C` for common, `LD` for laptop and desktop versioning.
 
 - hyprland (C)
+    - hypr
+    - hyprpaper
 
 ## 📦 GNU Stow
 
