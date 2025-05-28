@@ -47,7 +47,10 @@ With that being said, the full list of programs my configuration involves is det
 
 ### 🎳 List of programs
 
-- TODO
+> [!NOTE]
+> `C` for common, `LD` for laptop and desktop versioning.
+
+- hyprland (C)
 
 ## 📦 GNU Stow
 
