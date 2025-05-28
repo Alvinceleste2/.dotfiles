@@ -55,7 +55,7 @@ GNU Stow will be used to replicate system dotfiles to a centralised folder using
 
 Also, I encourage you to see [this video](https://www.youtube.com/watch?v=NoFiYOqnC4o) on how to use GNU Stow for this specific purpose. Credits to `typecraft` for doing it.
 
-The following sections will not serve as a proper documentation on how to use the program but as a quick reference guide on how to replicate the process of creating, managing and migrating this dotfiles.
+The following sections will not serve as a proper documentation on how to use the program but as a quick reference guide on some important things related to it.
 
 ### Naming convention
 
