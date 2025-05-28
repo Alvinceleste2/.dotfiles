@@ -73,9 +73,7 @@ With that being said, the full list of programs my configuration involves is det
 > `C` for common, `LD` for laptop and desktop versioning.
 
 - hyprland (D)
-    - hyprland.conf
-    - hyprpaper.conf
-    - hypridle.conf
+- waybar (D)
 
 ## 📦 GNU Stow
 
