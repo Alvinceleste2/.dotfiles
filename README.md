@@ -12,16 +12,26 @@ The only dependencies for the dotfiles installation are:
 Aside from installation, here is the full dependencies list in case you want to exactly replicate my setting:
 
 - hyprland
-- xdg-desktop-portal-hyprland
 - hyprpaper
 - hypridle
 - hyprlock
 - hyprpicker
+- hyprpolkitagent
+- hyprcursor
+- pipewire
+- wireplumber
+- xdg-desktop-portal-hyprland
+- udiskie
+
+***
 
 - firefox
 - zsh
 - kitty
+- thunar
 - gnome-calculator
+
+***
 
 ## ⏩ Quick installation
 
