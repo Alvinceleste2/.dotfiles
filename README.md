@@ -16,7 +16,7 @@ Both can be installed via `pacman -S <package-name>`.
 > [!IMPORTANT]
 > It is recommended to read the full `README` file before following this steps. It is intendeed that the user is aware of how GNU Stow works as well as the way dotfailes are organised.
 
-To use the dotfiles only a few steps are required.
+To install the dotfiles only a few steps are required.
 
 - Clone this repo into your `$(HOME)` folder inside your system. I recommend using something like `dotfiles/` or `.dotfiles` for its name.
 
