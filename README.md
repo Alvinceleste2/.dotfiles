@@ -48,11 +48,12 @@ With that being said, the full list of programs my configuration involves is det
 ### 🎳 List of programs
 
 > [!NOTE]
-> `C` for common, `LD` for laptop and desktop versioning.
+> `C` for common, `LD` for laptop and desktop versioning. Below each package, its dependencies are listed.
 
 - hyprland (C)
     - hypr
     - hyprpaper
+    - hyprpicker
 
 ## 📦 GNU Stow
 
