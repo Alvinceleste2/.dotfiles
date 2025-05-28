@@ -6,10 +6,22 @@ My Arch Linux dotfiles. This configuration uses `Wayland` as display protocol an
 
 The only dependencies for the dotfiles installation are:
 
-- `git`
-- `stow (GNU)` 
+- git
+- stow (GNU)
 
-Both can be installed via `pacman -S <package-name>`.
+Aside from installation, here is the full dependencies list in case you want to exactly replicate my setting:
+
+- hyprland
+- xdg-desktop-portal-hyprland
+- hyprpaper
+- hypridle
+- hyprlock
+- hyprpicker
+
+- firefox
+- zsh
+- kitty
+- gnome-calculator
 
 ## ⏩ Quick installation
 
@@ -48,12 +60,12 @@ With that being said, the full list of programs my configuration involves is det
 ### 🎳 List of programs
 
 > [!NOTE]
-> `C` for common, `LD` for laptop and desktop versioning. Below each package, its dependencies are listed.
+> `C` for common, `LD` for laptop and desktop versioning.
 
-- hyprland (C)
-    - hypr
-    - hyprpaper
-    - hyprpicker
+- hyprland (D)
+    - hyprland.conf
+    - hyprpaper.conf
+    - hypridle.conf
 
 ## 📦 GNU Stow
 
