@@ -51,9 +51,7 @@ With that being said, the full list of programs my configuration involves is det
 
 ## 📦 GNU Stow
 
-GNU Stow will be used to replicate system dotfiles to a centralised folder using symlinks. It lets you create and manage your dotfiles the easiest way. If you don't have any experience using GNU Stow, I recommend reading its [official documentation](https://www.gnu.org/software/stow/). Just to know how the program works, not deep knowledge will be needed.
-
-Also, I encourage you to see [this video](https://www.youtube.com/watch?v=NoFiYOqnC4o) on how to use GNU Stow for this specific purpose. Credits to `typecraft` for doing it.
+GNU Stow will be used to replicate system dotfiles to a centralised folder using symlinks. It lets you create and manage your dotfiles the easiest way. If you don't have any experience using GNU Stow, I recommend reading its [official documentation](https://www.gnu.org/software/stow/). Also, I encourage you to see [this video](https://www.youtube.com/watch?v=NoFiYOqnC4o) on how to use GNU Stow for this specific purpose. Credits to `typecraft` for doing it.
 
 The following sections will not serve as a proper documentation on how to use the program but as a quick reference guide on some important things related to it.
 
