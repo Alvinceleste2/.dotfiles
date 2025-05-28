@@ -11,7 +11,7 @@ The only dependencies are
 
 Both can be installed via `pacman -S <package-name>`.
 
-## Quick installation
+## ⏩ Quick installation
 
 > [!IMPORTANT]
 > It is recommended to read the full `README` file before following this steps. It is intendeed that the user is aware of how GNU Stow works as well as the way dotfailes are organised.
