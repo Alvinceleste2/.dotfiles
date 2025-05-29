@@ -33,6 +33,7 @@ Aside from installation, here is the full dependencies list in case you want to 
 - gnome-calculator
 - fuzzel
 - cliphist
+- zsh
 
 ***
 
@@ -61,3 +62,4 @@ With that being said, the full list of packages my configuration involves is det
 - waybar (D)
 - fuzzel (C)
 - mako (C)
+- zsh (C)
