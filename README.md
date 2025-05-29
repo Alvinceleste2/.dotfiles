@@ -34,6 +34,7 @@ Aside from installation, here is the full dependencies list in case you want to 
 - fuzzel
 - cliphist
 - zsh
+- kitty
 
 ***
 
@@ -63,3 +64,4 @@ With that being said, the full list of packages my configuration involves is det
 - fuzzel (C)
 - mako (C)
 - zsh (C)
+- kitty (C)
