@@ -22,6 +22,7 @@ Aside from installation, here is the full dependencies list in case you want to 
 - wireplumber
 - xdg-desktop-portal-hyprland
 - udiskie
+- waybar
 
 ***
 
@@ -33,6 +34,8 @@ Aside from installation, here is the full dependencies list in case you want to 
 - fuzzel
 
 ***
+
+- mako
 
 ## 📌 My configuration
 
@@ -56,3 +59,4 @@ With that being said, the full list of packages my configuration involves is det
 - hyprland (D)
 - waybar (D)
 - fuzzel (C)
+- mako (C)
