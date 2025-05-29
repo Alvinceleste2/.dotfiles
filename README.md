@@ -30,6 +30,7 @@ Aside from installation, here is the full dependencies list in case you want to 
 - kitty
 - thunar
 - gnome-calculator
+- fuzzel
 
 ***
 
