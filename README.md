@@ -32,6 +32,7 @@ Aside from installation, here is the full dependencies list in case you want to 
 - thunar
 - gnome-calculator
 - fuzzel
+- cliphist
 
 ***
 
