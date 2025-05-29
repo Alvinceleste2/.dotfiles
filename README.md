@@ -55,3 +55,4 @@ With that being said, the full list of packages my configuration involves is det
 
 - hyprland (D)
 - waybar (D)
+- fuzzel (C)
