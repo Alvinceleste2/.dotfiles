@@ -59,8 +59,8 @@ With that being said, the full list of packages my configuration involves is det
 > [!NOTE]
 > `C` for common, `L` and `D` for laptop and desktop versioning, respectively.
 
-- hyprland (D)
-- waybar (D)
+- hyprland (DL)
+- waybar (DL)
 - fuzzel (C)
 - mako (C)
 - zsh (C)
