@@ -1,6 +1,6 @@
 HOSTNAME=alv
 
-PROMPT="%B%F{red}%(?..%? )%f%b%B%F{blue}%n%f%b@%m %B%40<..<%~%<< %b%#"
+PROMPT="%B%F{red}%(?..%? )%f%b%B%F{blue}%n%f%b@%m %B%40<..<%~%<< %b%# "
 
 ## Completion settings
 
