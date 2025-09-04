@@ -1,5 +1,7 @@
 HOSTNAME=alv
 
+PROMPT="%B%F{red}%(?..%? )%f%b%B%F{blue}%n%f%b@%m %B%40<..<%~%<< %b%#"
+
 ## Completion settings
 
 zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
@@ -28,11 +30,6 @@ unsetopt beep
 WORDCHARS='*?_-.[]~=/&;!#$%^(){}<>'
 WORDCHARS='${WORDCHARS:s@/@}'
 
-## Misc bindings
-
-bindkey '^H' backward-kill-word
-bindkey '5~' kill-word
-
 #bindkey -M menuselect 'h' vi-backward-char
 #bindkey -M menuselect 'k' vi-up-line-or-history
 #bindkey -M menuselect 'l' vi-forward-char
@@ -56,17 +53,6 @@ alias l='ls -lah --color'
 alias mosh='mosh --no-init'
 alias cd..='cd ..'
 #alias temp="cd $(mktemp -d -p $HOME/Temporary XXXXX)"
-
-#export PATH="$HOME/.local/bin":"$HOME/.cargo/bin":"/opt/android-sdk/platform-tools/":$PATH
-#export dev='/ssd/dev/'
-
-## Perl settings
-
-#PATH="/home/antonio/perl5/bin${PATH:+:${PATH}}"; export PATH;
-#PERL5LIB="/home/antonio/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-#PERL_LOCAL_LIB_ROOT="/home/antonio/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-#PERL_MB_OPT="--install_base \"/home/antonio/perl5\""; export PERL_MB_OPT;
-#PERL_MM_OPT="INSTALL_BASE=/home/antonio/perl5"; export PERL_MM_OPT;
 
 ## Fix weird java rendering bug
 
