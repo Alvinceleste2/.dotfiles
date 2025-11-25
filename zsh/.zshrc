@@ -66,3 +66,6 @@ PERL_MM_OPT="INSTALL_BASE=/home/alvinceleste/perl5"; export PERL_MM_OPT;
 
 # Created by `pipx` on 2024-06-16 11:59:59
 export PATH="$PATH:/home/alvinceleste/.local/bin"
+
+# Neovim con nueva configuración
+# alias nvim-new='NVIM_APPNAME=nvim-new nvim'
