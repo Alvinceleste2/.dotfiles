@@ -18,6 +18,11 @@ return {
         yaml = { "prettier" },
         sql = { "pg_format" },
       },
+      formatters = {
+        typstyle = {
+          prepend_args = { "--column", "200" },
+        },
+      },
       format_on_save = {
         lsp_fallback = true,
         async = false,
