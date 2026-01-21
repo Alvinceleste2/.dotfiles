@@ -1,0 +1,12 @@
+[core]
+	editor = "nvim"
+
+[user]
+	email = "github.hvgyj15x@alvinceleste.eu"
+	name = "Alvinceleste2"
+
+[user "init"]
+	defaultBranch = "main"
+
+[user "pull"]
+	rebase = true
