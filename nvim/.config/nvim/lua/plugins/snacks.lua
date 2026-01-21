@@ -12,7 +12,7 @@ return {
       keymaps = {
         ["<C-s>"] = "open_split", -- split horizontal
         ["<C-v>"] = "open_vsplit", -- split vertical
-        ["<C-t>"] = "open_tab", -- abrir en tab si te interesa
+        ["<C-t>"] = "open_tab", -- open tab
       },
     },
     indent = { enabled = true },
@@ -21,7 +21,14 @@ return {
       enabled = true,
       timeout = 10000,
     },
-    picker = { enabled = true },
+    picker = { 
+      enabled = true,
+      sources = {
+        files = { hidden = true },
+        grep = { hidden = true },
+        explorer = { hidden = true }
+      }
+    },
     quickfile = { enabled = true },
     scope = { enabled = true },
     scroll = { enabled = true },
