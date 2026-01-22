@@ -1,6 +1,8 @@
 [global]
-    width = 400
-    offset = 5x5
+    width = 300
+    offset = 20x20
+
+    progress_bar = true
     
     progress_bar_min_width = 380
     progress_bar_max_width = 380
@@ -10,11 +12,13 @@
     horizontal_padding = 10
     frame_width = 1
     gap_size = 3
-    font = "Monospace 14"
+    font = "FantasqueSansM Nerd Font 12"
 
-    icon_theme = "rose-pine-icons"
+    icon_theme = "rose-pine"
+    icon_path = /run/current-system/sw/share/icons/rose-pine
     enable_recursive_icon_lookup = true
-    corner_radius = 2
+    max_icon_size = 24
+    corner_radius = 10
 
     background = "#26233a"
     foreground = "#e0def4"
