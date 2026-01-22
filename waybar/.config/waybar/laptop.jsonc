@@ -11,16 +11,17 @@
 
   "clock": {
     "format": "  {:%H:%M %p    %a, %b %e}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
 
   "hyprland/workspaces": {
     "active-only": false,
     "all-outputs": true,
-    "disable-scroll": false,
-    "on-scroll-up": "hyprctl dispatch workspace -1",
-    "on-scroll-down": "hyprctl dispatch workspace +1",
     "format": "{icon}",
-    "on-click": "activate",
+    // "disable-scroll": false,
+    // "on-scroll-up": "hyprctl dispatch workspace -1",
+    // "on-scroll-down": "hyprctl dispatch workspace +1",
+    // "on-click": "activate",
     "persistent_workspaces": {
       "1": [],
       "2": [],
@@ -119,29 +120,22 @@
       "󰃟",
       "󰃠"
     ],
-    "on-scroll-up": "brightnessctl set 1%+",
-    "on-scroll-down": "brightnessctl set 1%-",
-    "min-length": 6
   },
 
   "pulseaudio": {
     "format": "{icon} {volume}%",
-    "format-muted": "󰖁 Muted",
-    "on-click": "pamixer -t",
-    "on-scroll-up": "pamixer -i 1",
-    "on-scroll-down": "pamixer -d 1",
-    "scroll-step": 1,
+    "format-muted": "󰖁  Muted",
     "format-icons": {
-      "headphone": "",
-      "hands-free": "",
-      "headset": "",
-      "phone": "",
-      "portable": "",
-      "car": "",
+      "headphone": " ",
+      "hands-free": " ",
+      "headset": " ",
+      "phone": " ",
+      "portable": " ",
+      "car": " ",
       "default": [
         "",
         "",
-        ""
+        " "
       ]
     }
   },
