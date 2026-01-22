@@ -93,13 +93,13 @@ window#waybar {
 }
 
 #network {
-  color: @iris;
+  color: @rose;
   border-radius: 10px 0px 0px 10px;
   border-right: 0px;
 }
 
 #battery {
-  color: @rose;
+  color: #96d197;
   border-left: 0px;
   border-right: 0px;
 }
@@ -111,7 +111,7 @@ window#waybar {
 }
 
 #pulseaudio {
-  color: @pine;
+  color: @iris;
   border-radius: 0px 10px 10px 0px;
   border-left: 0px;
   margin-right: 10px;
