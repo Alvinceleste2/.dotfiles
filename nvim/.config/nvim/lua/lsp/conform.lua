@@ -12,7 +12,7 @@ return {
         markdown = { "prettier" },
         json = { "prettier" },
         lua = { "stylua" },
-        python = { "black", "isort" },
+        python = { "black" },
         tex = { "latexindent" },
         typst = { "typstyle" },
         yaml = { "prettier" },
