@@ -17,6 +17,7 @@ return {
         typst = { "typstyle" },
         yaml = { "prettier" },
         sql = { "pg_format" },
+        vue = { "prettier" }
       },
       formatters = {
         typstyle = {
