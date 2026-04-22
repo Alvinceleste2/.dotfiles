@@ -19,12 +19,13 @@ return {
         sql = { "pg_format" },
         vue = { "prettier" }
       },
-      formatters = {
-        typstyle = {
-          prepend_args = { "--column", "200" },
-        },
-      },
+      -- formatters = {
+      --  typstyle = {
+      --    prepend_args = { "--column", "200" },
+      --  },
+      --},
       format_on_save = {
+        enabled = true,
         lsp_fallback = true,
         async = false,
         timeout_ms = 1000,
